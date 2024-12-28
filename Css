@@ -1,0 +1,1474 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.image2 {
+    height: 100vh;
+}
+
+
+
+.header-container {
+    background-color: black;
+    height: 10vh;
+    padding: 20px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item {
+    margin-right: 15px;
+    font-family: "Bree Serif";
+    font-size: 20px;
+}
+
+
+.header-heading {
+    font-size: 25px;
+    color: white;
+    font-family: "Bree Serif";
+    margin-bottom: 10px;
+}
+
+.container1 {
+    background-image: url("https://res.cloudinary.com/duppqapou/image/upload/v1730522228/restaurant_wjcoez.jpg");
+    background-size: cover;
+    height: 60vh;
+
+
+}
+
+.heading1 {
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    font-family: "Langar";
+    font-size: 70px;
+
+
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* About Section */
+.about-section {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.about-section h1 {
+    font-size: 2.5em;
+    color: brown;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.about-section p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+/* Subsections */
+.popularity-highlights,
+.benefits-section,
+.owners-section {
+    margin-top: 30px;
+    text-align: left;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: brown;
+    margin-bottom: 10px;
+
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    color: #444;
+}
+
+li {
+    font-size: 1.1em;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+li::before {
+    content: '✔️';
+    color: #b5651d;
+    margin-right: 10px;
+    font-size: 1.2em;
+}
+
+.owners-section p {
+    margin-top: 15px;
+    font-size: 1.1em;
+    color: #555;
+}
+
+.strong {
+    color: #333;
+}
+
+.heading1 {
+    color: white;
+    text-align: center;
+    padding: 50px;
+    font-family: "Langar";
+    font-size: 80px;
+
+
+
+}
+
+.button {
+    text-align: center;
+    font-size: 30px;
+}
+
+.container1 {
+    background-image: url("https://res.cloudinary.com/duppqapou/image/upload/v1730624624/ress_f6mdbe.jpg");
+    background-size: cover;
+    height: 60vh;
+    padding-top: 60px;
+
+
+
+}
+
+.signup-form {
+    background-color: #ffffff;
+    width: 400px;
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 30px;
+}
+
+.signup-form h2 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    color: #333;
+}
+
+.signup-form form input[type="text"],
+.signup-form form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    font-size: 0.9em;
+    margin-bottom: 1em;
+}
+
+.checkbox-container input {
+    margin-right: 10px;
+}
+
+.checkbox-container a {
+    color: #d34242;
+    text-decoration: none;
+}
+
+.checkbox-container a:hover {
+    text-decoration: underline;
+}
+
+.signup-form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #ccc;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: not-allowed;
+    margin-bottom: 1em;
+}
+
+.signup-form .separator {
+    text-align: center;
+    margin: 1em 0;
+    color: #888;
+}
+
+.signup-form .separator span {
+    background-color: #fff;
+    padding: 0 10px;
+}
+
+.signup-form .google-signin {
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    color: #444;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
+.signup-form .google-signin::before {
+    content: '';
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg');
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.signup-form .login-link {
+    text-align: center;
+    font-size: 0.9em;
+}
+
+.signup-form .login-link a {
+    color: #d34242;
+    text-decoration: none;
+}
+
+.signup-form .login-link a:hover {
+    text-decoration: underline;
+}
+
+.bg-container {
+    background-color: #e6f6ff;
+    background-size: cover;
+    height: 90vh;
+    width: 100vw;
+}
+
+
+
+
+
+
+.container2 {
+    background-image: url("https://res.cloudinary.com/duppqapou/image/upload/v1730521997/cld-sample-4.jpg");
+
+    background-size: cover;
+    height: 70vh;
+}
+
+.bottomsection {
+    background-color: #e6f6ff;
+    height: 500px;
+    width: 905px;
+}
+
+.card-item {
+    text-align: center;
+    background-color: white;
+    width: 140px;
+    border-radius: 9px;
+    padding: 26px;
+    margin: 15px;
+    height: 190px;
+}
+
+.chip-card-image {
+    height: 104px;
+    width: 104px;
+}
+
+.chip-heading {
+    color: Black;
+    font-size: 20px;
+    font-family: "Roboto";
+    padding: 5px;
+}
+
+
+.card-item1 {
+    text-align: center;
+    background-color: white;
+    width: 140px;
+    border-radius: 9px;
+    padding: 26px;
+    margin: 15px;
+    height: 190px;
+
+}
+
+.icecream-card-image {
+    height: 104px;
+    width: 104px;
+
+}
+
+.icecream-heading {
+    color: Black;
+    font-size: 20px;
+    font-family: "Roboto";
+    padding: 5px;
+
+}
+
+.card-item2 {
+    text-align: center;
+    background-color: white;
+    width: 140px;
+    border-radius: 9px;
+    padding: 26px;
+    margin: 15px;
+    height: 190px;
+
+
+}
+
+.burger-card-image {
+    height: 104px;
+    width: 104px;
+
+
+}
+
+
+.burger-heading {
+    color: Black;
+    font-size: 20px;
+    font-family: "Roboto";
+    padding: 5px;
+}
+
+.card-item-3 {
+    text-align: center;
+    background-color: white;
+    width: 140px;
+    border-radius: 9px;
+    padding: 26px;
+    margin: 15px;
+    height: 190px;
+
+}
+
+.biryani-card-image {
+    height: 104px;
+    width: 104px;
+
+}
+
+.biryani-heading {
+    color: Black;
+    font-size: 20px;
+    font-family: "Roboto";
+    padding: 5px;
+}
+
+.card-item-4 {
+    text-align: center;
+    background-color: white;
+    width: 140px;
+    border-radius: 9px;
+    padding: 26px;
+    margin: 15px;
+    height: 190px;
+}
+
+.Noodles-card-image {
+    height: 104px;
+    width: 104px;
+
+}
+
+.Noodles-heading {
+    color: Black;
+    font-size: 20px;
+    font-family: "Roboto";
+    padding: 5px;
+}
+
+.Desserts-card-image {
+    height: 104px;
+    width: 104px;
+}
+
+.card-item-5 {
+    text-align: center;
+    background-color: white;
+    width: 140px;
+    border-radius: 9px;
+    padding: 26px;
+    margin: 15px;
+    height: 190px;
+}
+
+.desserts-heading {
+    color: Black;
+    font-size: 20px;
+    font-family: "Roboto";
+    padding: 5px;
+
+}
+
+.drinks-card-image {
+    height: 104px;
+    width: 104px;
+}
+
+
+.card-image-6 {
+    text-align: center;
+    background-color: white;
+    width: 140px;
+    border-radius: 9px;
+    padding: 26px;
+    margin: 15px;
+    height: 190px;
+
+}
+
+.drinks-heading {
+    color: Black;
+    font-size: 20px;
+    font-family: "Roboto";
+    padding: 5px;
+}
+
+.salads-card-image {
+    height: 104px;
+    width: 104px;
+}
+
+
+.card-item-7 {
+    text-align: center;
+    background-color: white;
+    width: 140px;
+    border-radius: 9px;
+    padding: 26px;
+    margin: 15px;
+    height: 190px;
+
+}
+
+.salads-heading {
+    color: Black;
+    font-size: 20px;
+    font-family: "Roboto";
+    padding: 5px;
+}
+
+
+/* styles.css */
+.body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9f9f9;
+    margin: 0;
+}
+
+.login-modal {
+    background-color: white;
+    width: 320px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    margin: 30px;
+}
+
+.login-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.login-header h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.close {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.phone-input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.flag-icon {
+    height: 40px;
+    width: 40px;
+    margin-right: 8px;
+}
+
+.country-code,
+.phone-number {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+
+.phone-number {
+    flex-grow: 1;
+}
+
+.otp-button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.divider hr {
+    flex-grow: 1;
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+}
+
+.divider span {
+    padding: 0 10px;
+    color: #888;
+}
+
+.email-button,
+.google-button {
+    background-color: #f0f0f0;
+    color: #333;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.icon {
+    width: 50px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.create-account {
+    font-size: 14px;
+    color: #555;
+}
+
+.create-account a {
+    color: #ff4d4d;
+    text-decoration: none;
+}
+
+.create-account a:hover {
+    text-decoration: underline;
+}
+
+
+.image {
+    height: 400px;
+}
+
+.image1 {
+    height: 400px;
+}
+
+
+.image-corosel {
+    height: 400px;
+}
+
+.image-33 {
+    height: 200px;
+}
+
+.bottom-section-biryani {
+    background-color: #e6f6ff;
+    background-size: cover;
+    height: 150vh;
+    padding: 40px;
+    width: 98vw;
+
+}
+
+.card-biryani {
+    height: 30vh;
+    width: 90vw;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.size-biryani {
+    height: 30vh;
+    width: 32vw;
+
+}
+
+.spaces-biryani {
+    margin-left: 40px;
+}
+
+.rupees-biryani {
+    font-family: "Bree Serif";
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.head-biryani {
+    font-family: "Roboto";
+}
+
+.para-biryani {
+    font-size: 15px;
+}
+
+
+.zoom-image8 {
+    transition: transform 0.3s ease;
+    height: 30vh
+        /* Smooth transition */
+}
+
+.zoom-image8:hover,
+/* For desktop hover */
+.zoom-image8:active {
+    /* For mobile touch */
+    transform: scale(1.2);
+    /* Increase scale to "move" image forward */
+}
+
+
+/* Basic styling for the text */
+.blink8 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #ff0000;
+    animation: blink-animation 1s steps(2, start) infinite;
+}
+
+/* Blinking animation */
+@keyframes blink-animation {
+    50% {
+        opacity: 0;
+    }
+}
+
+.bottom-section-drinks {
+    background-color: #e6f6ff;
+    background-size: cover;
+    height: 150vh;
+    padding: 40px;
+    width: 98vw;
+
+}
+
+.card-drinks {
+    height: 30vh;
+    width: 90vw;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.size-drinks {
+    height: 30vh;
+    width: 35vw;
+    margin-left: 60px;
+
+
+}
+
+.spaces-drinks {
+    margin-left: 80px;
+}
+
+.rupees-drinks {
+    font-family: "Bree Serif";
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.head-drinks {
+    font-family: "Roboto";
+}
+
+.para-drinks {
+    font-size: 15px;
+}
+
+
+.blink3 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #ff0000;
+    animation: blink-animation 1s steps(2, start) infinite;
+}
+
+/* Blinking animation */
+@keyframes blink-animation {
+    50% {
+        opacity: 0;
+    }
+}
+
+
+.zoom-image3 {
+    transition: transform 0.3s ease;
+    height: 30vh;
+    /* Smooth transition */
+}
+
+.zoom-image3:hover,
+/* For desktop hover */
+.zoom-image3:active {
+    /* For mobile touch */
+    transform: scale(1.2);
+    /* Increase scale to "move" image forward */
+}
+
+.bottom-section-icecream {
+    background-color: #e6f6ff;
+    background-size: cover;
+    height: 150vh;
+    padding: 40px;
+    width: 98vw;
+
+}
+
+.card-icecream {
+    height: 30vh;
+    width: 90vw;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.size-icecream {
+    height: 30vh;
+    width: 35vw;
+    margin-right: 34px;
+
+}
+
+.spaces-icecream {
+    margin-left: 70px;
+}
+
+.rupees-icecream {
+    font-family: "Bree Serif";
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.head-icecream {
+    font-family: "Roboto";
+}
+
+.para-icecream {
+    font-size: 15px;
+}
+
+.blink2 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #ff0000;
+    animation: blink-animation 1s steps(2, start) infinite;
+}
+
+/* Blinking animation */
+@keyframes blink-animation {
+    50% {
+        opacity: 0;
+    }
+}
+
+.zoom-image2 {
+    transition: transform 0.3s ease;
+    height: 30vh;
+    /* Smooth transition */
+}
+
+.zoom-image2:hover,
+/* For desktop hover */
+.zoom-image2:active {
+    /* For mobile touch */
+    transform: scale(1.2);
+    /* Increase scale to "move" image forward */
+}
+
+.bottom-section-burger {
+    background-color: #e6f6ff;
+    background-size: cover;
+    height: 150vh;
+    padding: 40px;
+    width: 98vw;
+
+}
+
+.card-burger {
+    height: 30vh;
+    width: 90vw;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.size-burger {
+    height: 30vh;
+    width: 32vw;
+
+}
+
+.spaces-burger {
+    margin-left: 40px;
+}
+
+.rupees-burger {
+    font-family: "Bree Serif";
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.head-burger {
+    font-family: "Roboto";
+}
+
+.para-burger {
+    font-size: 15px;
+}
+
+.zoom-image6 {
+    transition: transform 0.3s ease;
+    height: 30vh
+        /* Smooth transition */
+}
+
+.zoom-image6:hover,
+/* For desktop hover */
+.zoom-image6:active {
+    /* For mobile touch */
+    transform: scale(1.2);
+    /* Increase scale to "move" image forward */
+}
+
+
+/* Basic styling for the text */
+.blink6 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #ff0000;
+    animation: blink-animation 1s steps(2, start) infinite;
+}
+
+/* Blinking animation */
+@keyframes blink-animation {
+    50% {
+        opacity: 0;
+    }
+}
+
+.bottom-section-chips {
+    background-color: #e6f6ff;
+    background-size: cover;
+    height: 150vh;
+    padding: 40px;
+    width: 98vw;
+
+}
+
+.card-chips {
+    height: 30vh;
+    width: 90vw;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.size-chips {
+    height: 30vh;
+    width: 32vw;
+
+}
+
+.spaces-chips {
+    margin-left: 40px;
+}
+
+.rupees-chips {
+    font-family: "Bree Serif";
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.head-chips {
+    font-family: "Roboto";
+}
+
+.para-chips {
+    font-size: 15px;
+}
+
+.blink5 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #ff0000;
+    animation: blink-animation 1s steps(2, start) infinite;
+}
+
+/* Blinking animation */
+@keyframes blink-animation {
+    50% {
+        opacity: 0;
+    }
+}
+
+
+
+.zoom-image5 {
+    transition: transform 0.3s ease;
+    height: 30vh
+        /* Smooth transition */
+}
+
+.zoom-image5:hover,
+/* For desktop hover */
+.zoom-image5:active {
+    /* For mobile touch */
+    transform: scale(1.2);
+    /* Increase scale to "move" image forward */
+}
+
+.bottom-section-salad {
+    background-color: #e6f6ff;
+    background-size: cover;
+    height: 150vh;
+    padding: 40px;
+    width: 98vw;
+
+}
+
+.card-salad {
+    height: 30vh;
+    width: 90vw;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.size-salad {
+    height: 30vh;
+    width: 32vw;
+
+}
+
+.spaces-salad {
+    margin-left: 40px;
+}
+
+.rupees-salad {
+    font-family: "Bree Serif";
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.head-salad {
+    font-family: "Roboto";
+}
+
+.para-salad {
+    font-size: 15px;
+}
+
+
+.zoom-image4 {
+    transition: transform 0.3s ease;
+    height: 30vh
+        /* Smooth transition */
+}
+
+.zoom-image4:hover,
+/* For desktop hover */
+.zoom-image4:active {
+    /* For mobile touch */
+    transform: scale(1.2);
+    /* Increase scale to "move" image forward */
+}
+
+
+/* Basic styling for the text */
+.blink4 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #ff0000;
+    animation: blink-animation 1s steps(2, start) infinite;
+}
+
+/* Blinking animation */
+@keyframes blink-animation {
+    50% {
+        opacity: 0;
+    }
+}
+
+.bottom-section-noodles {
+    background-color: #e6f6ff;
+    background-size: cover;
+    height: 150vh;
+    padding: 40px;
+    width: 98vw;
+
+}
+
+.card-noodles {
+    height: 30vh;
+    width: 90vw;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.size-noodles {
+    height: 30vh;
+    width: 32vw;
+
+}
+
+.spaces-noodles {
+    margin-left: 40px;
+}
+
+.rupees-noodles {
+    font-family: "Bree Serif";
+    font-weight: bold;
+
+    font-size: 20px;
+}
+
+.head-noodles {
+    font-family: "Roboto";
+}
+
+.para-noodles {
+    font-size: 15px;
+}
+
+/* styles.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 35px;
+
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.app-info {
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.app-image img {
+    width: 150px;
+    border-radius: 20px;
+}
+
+.app-details {
+    margin-left: 30px;
+}
+
+.app-details h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.app-details h2 {
+    color: #aaa;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.rating {
+    display: flex;
+    gap: 15px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.install-btn,
+.wishlist-btn,
+.download-btn {
+    background-color: #00c853;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.wishlist-btn {
+    background-color: #555;
+}
+
+.promotion {
+    text-align: center;
+    background-color: #333;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.promotion h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.promotion p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.download-btn {
+    background-color: #ff5252;
+}
+
+.app-logo {
+    height: 30vh;
+    width: 0vw;
+    padding: 0px;
+}
+
+.play {
+    margin-top-right-radius: 100px;
+}
+
+.card-noodles1 {
+    height: 30vh;
+    width: 90vw;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+
+}
+
+.size-noodles1 {
+    height: 30vh;
+    width: 32vw;
+
+}
+
+.spaces1 {
+    margin-left: 40px;
+}
+
+.rupees1 {
+    font-family: "Bree Serif";
+    font-style: bold;
+    font-size: 20px;
+}
+
+.head1 {
+    font-family: "Roboto";
+}
+
+.para1 {
+    font-size: 15px;
+}
+
+.zoom-image7 {
+    transition: transform 0.3s ease;
+    height: 30vh
+        /* Smooth transition */
+}
+
+.zoom-image7:hover,
+/* For desktop hover */
+.zoom-image7:active {
+    /* For mobile touch */
+    transform: scale(1.2);
+    /* Increase scale to "move" image forward */
+}
+
+
+/* Basic styling for the text */
+.blink7 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #ff0000;
+    animation: blink-animation 1s steps(2, start) infinite;
+}
+
+/* Blinking animation */
+@keyframes blink-animation {
+    50% {
+        opacity: 0;
+    }
+}
+
+.image-desserts {
+    height: 400px;
+}
+
+
+.bottom-section-desserts {
+    background-color: #e6f6ff;
+    background-size: cover;
+    height: 150vh;
+    padding: 40px;
+    width: 98vw;
+
+}
+
+.card-desserts {
+    height: 30vh;
+    width: 90vw;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.size-desserts {
+    height: 30vh;
+    width: 32vw;
+    margin-right: 250px;
+
+}
+
+.spaces-desserts {
+    margin-left: 40px;
+}
+
+.rupees-desserts {
+    font-family: "Bree Serif";
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.head-desserts {
+    font-family: "Roboto";
+}
+
+.para-desserts {
+    font-size: 15px;
+}
+
+.blink1 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #ff0000;
+    animation: blink-animation 1s steps(2, start) infinite;
+}
+
+/* Blinking animation */
+@keyframes blink-animation {
+    50% {
+        opacity: 0;
+    }
+}
+
+
+.zoom-image1 {
+    transition: transform 0.3s ease;
+    height: 30vh;
+
+    /* Smooth transition */
+}
+
+.zoom-image1:hover,
+/* For desktop hover */
+.zoom-image1:active {
+    /* For mobile touch */
+    transform: scale(1.2);
+    /* Increase scale to "move" image forward */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 35px;
+
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.app-info {
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.app-image img {
+    width: 150px;
+    border-radius: 20px;
+}
+
+.app-details {
+    margin-left: 30px;
+}
+
+.app-details h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.app-details h2 {
+    color: #aaa;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.rating {
+    display: flex;
+    gap: 15px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.install-btn,
+.wishlist-btn,
+.download-btn {
+    background-color: #00c853;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.wishlist-btn {
+    background-color: #555;
+}
+
+.promotion {
+    text-align: center;
+    background-color: #333;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.promotion h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.promotion p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.download-btn {
+    background-color: #ff5252;
+}
+
+.app-logo {
+    height: 30vh;
+    width: 0vw;
+    padding: 0px;
+}
+
+.play {
+    margin-top-right-radius: 100px;
+}
